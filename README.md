@@ -15,7 +15,7 @@ Built using **CrewAI + Groq + Streamlit**, this project simulates real-world col
 * 🎥 YouTube Resource Recommendations (with thumbnails)
 * 📘 Course Suggestions (with links)
 * 💻 Practice Platform Recommendations
-* 📊 Skill Gap Visualization (graph)
+* 💬 AI Assistant
 * 📥 Downloadable Career Plan (JSON)
 
 ---
