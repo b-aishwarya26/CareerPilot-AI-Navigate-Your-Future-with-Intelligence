@@ -15,8 +15,31 @@ Built using **CrewAI + Groq + Streamlit**, this project simulates real-world col
 * 🎥 YouTube Resource Recommendations (with thumbnails)
 * 📘 Course Suggestions (with links)
 * 💻 Practice Platform Recommendations
-* 💬 AI Assistant
+* 💬 **AI Career Assistant (Chatbot)**
 * 📥 Downloadable Career Plan (JSON)
+
+---
+
+## 💬 AI Career Assistant
+
+CareerPilot AI includes an integrated **AI-powered chatbot assistant** that enhances user experience by providing real-time, personalized guidance.
+
+### ✨ What it can do:
+
+* Answer career-related questions
+* Suggest next learning steps based on your roadmap
+* Recommend projects and resources
+* Explain concepts (e.g., Machine Learning, Deep Learning)
+* Provide personalized advice using your resume analysis
+
+### ⚙️ How it works:
+
+* Powered by **Groq LLaMA 3.3 (70B)** model
+* Uses your generated roadmap as **context**
+* Integrated into the UI as a **floating chatbot interface** 💬
+* Maintains session-based conversation history
+
+👉 This makes the system not just analytical, but **interactive and conversational**
 
 ---
 
@@ -49,7 +72,7 @@ All agents collaborate using **context sharing**, making the system truly *agent
 * **Frontend:** Streamlit
 * **Backend:** Python
 * **AI Framework:** CrewAI
-* **LLM:** Groq (LLaMA 3)
+* **LLM:** Groq (LLaMA 3.3 70B Versatile)
 * **APIs Used:**
 
   * YouTube Data API v3
@@ -71,6 +94,7 @@ careerpilot-ai/
 ├── crew.py              # Agents & tasks
 ├── tools.py             # API integrations (YouTube)
 ├── resume_parser.py     # Resume text extraction
+├── ai_chatbot.py        # AI Assistant logic
 ├── requirements.txt
 ├── .env                 # API keys (not uploaded)
 ```
@@ -141,9 +165,9 @@ streamlit run app.py
 
 ## 🚀 Future Improvements
 
-* 🎤 Voice input (speech-to-text)
+* 🎤 Voice-enabled chatbot assistant
 * 📊 Interactive graphs (Plotly)
-* 💬 Chat-based continuous conversation
+* 💬 Chat memory (long-term personalization)
 * 🌐 Deployment with custom domain
 * 📄 PDF report generation
 * 🔗 LinkedIn / GitHub profile analysis
@@ -159,7 +183,7 @@ This tool provides AI-generated career guidance and should be used for informati
 ## 👩‍💻 Author
 
 **B Aishwarya**
-AI & ML Enthusiast | Future AI Product Manager
+AI & ML Enthusiast
 
 ---
 
