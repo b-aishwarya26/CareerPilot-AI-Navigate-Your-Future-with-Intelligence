@@ -1,6 +1,0 @@
-crewai
-streamlit
-python-dotenv
-requests
-PyPDF2
-matplotlib
